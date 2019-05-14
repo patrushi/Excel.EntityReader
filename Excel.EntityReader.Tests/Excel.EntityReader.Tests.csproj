@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>Excel.EntityReader.Tests</RootNamespace>
+    <PackageId>Excel.EntityReader.Tests</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>ptrushin</Authors>
+    <Company>patrushi</Company>
+    <PackageDescription>https://github.com/patrushi/Excel.EntityReader</PackageDescription>
+    <PackageProjectUrl>https://github.com/patrushi/Excel.EntityReader</PackageProjectUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="EPPlus" Version="4.5.2.1"/>
+    <PackageReference Include="xunit" Version="2.4.1"/>
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Excel.EntityReader\Excel.EntityReader.csproj"/>
+  </ItemGroup>
+</Project>
